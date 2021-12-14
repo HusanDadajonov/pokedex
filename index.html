@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>pokedex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.min.css">
 </head>
@@ -12,12 +13,12 @@
   <div class="container">
     <nav aria-label="Page navigation example" class="mt-5">
       <ul class="pagination">
-        <li class="page-item"><a class="page-link btnall" href="#">all</a></li>
-        <li class="page-item"><a class="page-link btn1" href="#">1</a></li>
-        <li class="page-item"><a class="page-link btn2" href="#">2</a></li>
-        <li class="page-item"><a class="page-link btn3" href="#">3</a></li>
-        <li class="page-item"><a class="page-link btn4" href="#">4</a></li>
-        <li class="page-item"><a class="page-link btn5" href="#">5</a></li>
+        <li class="page-item"><a class="page-link btnall" href="#" onclick="sort(1,100)">all</a></li>
+        <li class="page-item"><a class="page-link btn1" href="#" onclick="sort(1,20)">1</a></li>
+        <li class="page-item"><a class="page-link btn2" href="#" onclick="sort(20,40)">2</a></li>
+        <li class="page-item"><a class="page-link btn3" href="#" onclick="sort(40,60)">3</a></li>
+        <li class="page-item"><a class="page-link btn4" href="#" onclick="sort(60,80)">4</a></li>
+        <li class="page-item"><a class="page-link btn5" href="#" onclick="sort(80,100)">5</a></li>
       </ul>
     </nav>
     <div class="box">
